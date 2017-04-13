@@ -1,0 +1,7 @@
+- **PolicyBased:** PolicyBased VPN precedentemente denominate gateway routing statico nel modello di distribuzione classica. In base a criteri VPN crittografare e diretta pacchetti attraverso tunnel IPsec in base ai criteri IPsec configurati con le combinazioni di prefissi tra la rete locale e VNet Azure. Criteri (o selettore di traffico) in genere è definito come un elenco di accesso nella configurazione del dispositivo VPN. Il valore per un tipo di PolicyBased VPN è *PolicyBased*. Quando si usa un VPN PolicyBased, tenere presenti le limitazioni seguenti:
+
+    - PolicyBased VPN può **solo** essere usata su gateway base SKU. Questo tipo VPN non è compatibile con altri gateway SKU.
+    - È possibile impostare 1 solo tunnel quando si usa un VPN PolicyBased.
+    - È possibile utilizzare solo PolicyBased VPN per le connessioni S2S e solo per alcuni configurazioni. La maggior parte delle configurazioni di Gateway VPN richiedono una VPN RouteBased.
+
+- **RouteBased**: RouteBased VPN precedentemente denominate gateway routing dinamico nel modello di distribuzione classica. RouteBased VPN utilizzare "route" IP inoltro o il routing di tabella per i pacchetti diretti nelle interfacce tunnel corrispondenti. Le interfacce tunnel quindi crittografare o decrittografare i pacchetti da e verso il tunnel. Criteri (o selettore di traffico) per le connessioni VPN RouteBased sono configurati come qualsiasi a qualsiasi (o i caratteri jolly). Il valore per un tipo di RouteBased VPN è *RouteBased*.

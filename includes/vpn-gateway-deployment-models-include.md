@@ -1,0 +1,5 @@
+È importante tenere presente che Azure attualmente funziona con due modelli di distribuzione: Gestione risorse e classica. Prima di iniziare la configurazione, verificare che si utilizza le istruzioni per il modello di distribuzione che si desidera utilizzare. I due modelli non sono completamente compatibili tra loro.
+
+Ad esempio, se sta lavorando a una rete virtuale che è stata creata utilizzando il modello di distribuzione classica e si desidera aggiungere una connessione per la VNet, utilizzare i metodi di distribuzione che corrispondono al modello di distribuzione classico, non Manager delle risorse. Se sta lavorando a una rete virtuale che è stata creata utilizzando il modello di distribuzione di Manager delle risorse, utilizzare i metodi di distribuzione che corrispondono Gestione risorse, non classica.
+
+Per informazioni sui modelli di distribuzione, vedere [distribuzione classica e gestione di informazioni sulle risorse](../articles/resource-manager-deployment-model.md).
