@@ -1,0 +1,5 @@
+Questo articolo è destinato il servizio App Azure (Web Apps, App API, App Mobile, App logica); per i servizi Cloud, vedere [configurazione di un nome di dominio personalizzato per un servizio cloud Azure](../articles/cloud-services/cloud-services-custom-domain-name.md).
+
+> [AZURE.NOTE]  Se si app bilanciamento del carico da [Azure il traffico Manager](https://azure.microsoft.com/services/traffic-manager/), fare clic sul selettore nella parte superiore di questo articolo per istruzioni specifiche.
+>
+> **Dominio personalizzato sono i nomi non abilitato gratuitamente livello**. È necessario [scala fino a un livello superiore prezzo](../articles/app-service-web/web-sites-scale.md), che può cambiare quantità vengono addebitate per l'abbonamento. Per ulteriori informazioni, vedere [App servizio prezzi](https://azure.microsoft.com/pricing/details/app-service/) .
