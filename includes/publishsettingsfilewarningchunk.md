@@ -1,0 +1,2 @@
+> [AZURE.NOTE]
+> Il file publishsettings contiene le credenziali (chiaro) utilizzati per amministrare le sottoscrizioni Azure e i servizi. Procedura consigliata per il file è l'archiviazione temporaneamente di fuori la directory di origine (ad esempio nella cartella Libraries\Documents) e quindi eliminarla una volta completata l'importazione. Un utente non autorizzato riesce ad accedere al file publishsettings possibile modificare, creare ed eliminare il provider di servizi Azure.

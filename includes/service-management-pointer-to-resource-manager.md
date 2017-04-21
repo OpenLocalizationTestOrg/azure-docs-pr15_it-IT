@@ -1,0 +1,3 @@
+### <a name="azure-service-management-and-azure-resource-manager"></a>Gestione dei servizi Azure e Azure Manager delle risorse
+ 
+In questo articolo riguarda una risorsa creata mediante la gestione dei servizi. Si consiglia di Manager delle risorse per le nuove risorse Azure. Per visualizzare una spiegazione dei vantaggi di gestione risorse, vedere [il calcolo di Azure, rete e il provider di archiviazione in Gestione risorse di Azure](../articles/virtual-machines/virtual-machines-windows-compare-deployment-models.md). Per eseguire la stessa attività con Gestione risorse, vedere l'articolo seguente:
